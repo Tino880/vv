@@ -1,0 +1,27 @@
+{
+  "name": "bera-auto-reff",
+  "version": "1.0.0",
+  "description": "Auto registration bot for Bera Honeycomb with proxy support",
+  "main": "bera.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bera.js"
+  },
+  "keywords": [
+    "bera",
+    "registration",
+    "bot",
+    "web3",
+    "proxy"
+  ],
+  "author": "airdropinsiders",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "chalk": "^5.3.0",
+    "web3": "^4.5.0",
+    "socks-proxy-agent": "^8.0.2",
+    "https-proxy-agent": "^7.0.2",
+    "user-agents": "^1.1.100"
+  }
+}
